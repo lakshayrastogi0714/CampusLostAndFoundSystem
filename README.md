@@ -1,2 +1,47 @@
-# CampusLostAndFoundSystem
-Campus Lost &amp; Found System is a Java-based campus management application that helps students report, search, match, and recover lost and found items. It provides separate student and admin functionality, including item reporting, smart lost-found matching, claim requests, approval/rejection, and item status management.
+# Smart Campus Lost & Found
+
+A Java OOP based campus Lost and Found Management System.
+
+## Features
+
+- Student registration and login
+- Admin login
+- Report lost items
+- Report found items
+- Search items
+- View personal reports
+- Automatic possible-match scoring
+- Submit claims
+- Admin approval/rejection
+- Mark items as returned
+- System statistics
+- File-based persistent storage
+
+## Technologies
+
+- Java
+- Object-Oriented Programming
+- Collections
+- File Handling
+- Exception Handling
+
+## Default Admin
+
+Email: admin@campus.com
+Password: admin123
+
+## Run
+
+Compile all Java files from the project root:
+
+```bash
+javac -d out src/model/*.java src/service/*.java src/SmartCampusLostAndFound/Main.java
+```
+
+Run:
+
+```bash
+java -cp out SmartCampusLostAndFound.Main
+```
+
+The application automatically creates the data folder and text files.
